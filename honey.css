@@ -1,0 +1,142 @@
+body {
+font-family: 'MS Gothic', 'MS UI Gothic', 'Courier', sans-serif;
+background-image: url("images/pink stripe bg.png");
+background-size: cover;
+height: 100%;
+padding: 30px;
+}
+
+a {
+text-decoration: none;
+}
+
+#backbutton {
+border: 2px solid #522037;
+border-radius: 10px;
+height: 50px;
+width: 100px;
+text-align: center;
+line-height: 50px;
+background-image: linear-gradient(180deg, #fff2f8, #f0afc9, #e082ae, #c44f86);
+color: #fff;
+margin-top: 10px;
+margin-left: 20px;
+margin-bottom: -10px;
+}
+
+#container {
+border: 3px outset #522037;
+border-radius: 5px;
+background-image: linear-gradient(360deg, #fff2f8, #f0afc9, #e082ae, #c44f86, #fff2f8);
+margin-left: auto;
+margin-right: auto;
+width: 830px;
+height: 1060px;
+}
+
+#innercontainer {
+background: #fff;
+border: #000 double 2px;
+border-radius: 5px;
+height: 910px;
+margin: 20px;
+}
+
+#header {
+text-align: left;
+padding: 10px;
+}
+
+#info {
+border: double;
+border-radius: 25px;
+height: 460px;
+width: 390px;
+margin: 10px;
+padding: 10px;
+}
+
+.infobutton {
+display: block;
+padding: 5px 10px;
+border: 2px solid #522037;
+background-image: linear-gradient(180deg, #fff2f8, #f0afc9, #e082ae, #c44f86);
+text-align: center;
+font-weight: bold;
+font-size: 14px;
+margin: 5px 0;
+width: fit-content;
+border-radius: 4px;
+color: #fff;
+}
+
+#name {
+margin-left: 70px;
+margin-top: -270px;
+}
+
+#age {
+margin-left: -10px;
+margin-top: 15px;
+}
+
+#gender {
+margin-left: 25px;
+margin-top: 15px;
+}
+
+#orientation {
+margin-left: 40px;
+margin-top: 20px;
+}
+
+#species {
+margin-left: -35px;
+margin-top: 15px;
+}
+
+#likes {
+margin-left: -15px;
+margin-top: 15px;
+}
+
+#dislikes {
+margin-left: 25px;
+margin-top: 15px;
+}
+
+#creationdate {
+margin-left: 40px;
+margin-top: 20px;
+}
+
+#about {
+margin-left: -140px;
+margin-top: 30px;
+}
+
+#connections img {
+border: double #000;
+border-radius: 5px; 
+margin: 1px;
+}
+
+#connections {
+margin-left: -145px;
+margin-top: 60px;
+}
+
+#mainimage {
+margin-top: -800px;
+margin-left: 290px;
+}
+
+#footer {
+background-image: linear-gradient(180deg, #fff2f8, #f0afc9, #e082ae, #c44f86);
+border: 2px #522037 solid;
+border-radius: 10px;
+padding: 0 5px;
+text-align: center;
+color: #fff;
+margin: 20px 20px;
+}
