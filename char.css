@@ -1,0 +1,131 @@
+body {
+font-family: 'MS UI Gothic', 'MS Gothic', 'Courier', sans-serif;
+background-image: url("images/skybg2.png");
+background-size: cover;
+height: 100%;
+padding: 15px;
+}
+
+h1 {
+text-align: center;
+padding: 60px;
+}
+
+#container {
+border: 3px outset #00185a;
+border-radius: 5px;
+border-top-right-radius: 30px;
+border-top-left-radius: 30px;
+background-image: linear-gradient(360deg, #8fcbff, #2e89ff, #38c0ff, #2e89ff, #00a2ff, #81d1ff);
+margin-left: auto;
+margin-right: auto;
+width: 900px;
+height: 1000px;
+}
+
+#containerbox {
+background: #fff;
+background-image: url("images/dots2.png");
+border: #000 double 2px;
+border-radius: 5px;
+height: 910px;
+margin: 15px;
+}
+
+#header {
+background-image: url("images/header.png");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+border: 2px solid #00185a;
+border-radius: 5px;
+width: 840px;
+height: 200px;
+margin: 12px;
+}
+
+#topnav{
+border: #060652 double;
+border-radius: 15px;
+height: 55px;
+background-image: linear-gradient(160deg, #fff, #8fcbff, #38c0ff, #2e89ff, #38c0ff,#8fcbff, #fff);
+padding: 0 5px;
+margin: 10px 10px;
+text-align: center;
+}
+
+nav ul {
+list-style-type: none;
+padding: 0;
+margin: 0;
+}
+
+nav li{
+display:inline-block;
+position:relative;
+height:2em;line-height:2em;
+margin: 5px;
+}
+
+nav li a,nav li span{
+display: inline-block;
+background-image: linear-gradient(360deg, #8fcbff, #38c0ff, #2e89ff, #004cff);
+color: white;
+padding: 5px 15px;
+border-radius: 10px;
+text-decoration: none;
+font-weight: bold;
+text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); 
+transition: 0.3s ease-in-out;
+border: 2px solid #004cff;
+}
+
+/* this section makes the buttons hover */
+nav li a:hover {
+background-image: linear-gradient(380deg, #8fcbff, #38c0ff, #2e89ff, #004cff);
+border-color: #060652;
+text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); 
+transform: scale(1.1);
+}
+
+#content {
+background-color: #fff;
+padding: 15px;
+margin: 15px;
+border: double;
+border-radius: 5px;
+width: 100;
+height: 555px;
+overflow-y: auto;
+overflow-x: hidden;
+scrollbar-color: #8fcbff white;
+scrollbar-width: thin;
+}
+
+#main {
+width: 575px;
+overflow-y: auto;
+overflow-x: hidden;
+}
+
+#footer {
+background-image: linear-gradient(180deg, #8fcbff, #38c0ff, #2e89ff, #004cff);
+border: 2px #060652 solid;
+border-radius: 10px;
+padding: 0 5px;
+text-align: center;
+color: #fff;
+margin: 20px 20px;
+margin-top: 20px;
+}
+
+img {
+border: double #000;
+border-radius: 5px; 
+margin: 5px;
+transition: 0.3s ease-in-out;
+}
+
+img:hover {
+transform: scale(1.1);
+}
