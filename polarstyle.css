@@ -1,7 +1,7 @@
 body {
 font-family: 'MS UI Gothic', 'MS Gothic', 'Courier', sans-serif;
 background-image: url("");
-background-color: #ccc3bc;
+background-color: #dbd4ce;
 background-size: cover;
 height: 100%;
 padding: 15px;
@@ -50,7 +50,7 @@ margin: 12px;
 }
 
 #topnav{
-background-color: #fff;
+background-image: url("images/beigeplaid.png");
 border: double;
 border-radius: 15px;
 height: 55px;
