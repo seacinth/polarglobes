@@ -1,8 +1,8 @@
 body {
 font-family: 'MS UI Gothic', 'MS Gothic', 'Courier', sans-serif;
-background-image: url("");
+background-image: url("images/snowflakes.png");
 background-color: #dbd4ce;
-background-size: cover;
+background-size: repeat;
 height: 100%;
 padding: 15px;
 }
