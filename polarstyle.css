@@ -38,7 +38,7 @@ margin: 15px;
 }
 
 #header {
-background-color: #fff;
+background-image: url("images/polarbanner.png");
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
