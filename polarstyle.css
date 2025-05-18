@@ -1,6 +1,7 @@
 body {
 font-family: 'MS UI Gothic', 'MS Gothic', 'Courier', sans-serif;
 background-image: url("");
+background-color: #ccc3bc;
 background-size: cover;
 height: 100%;
 padding: 15px;
