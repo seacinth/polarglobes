@@ -117,7 +117,7 @@ margin-top: 20px;
 }
 
 img {
-border: double #000;
+border: double #C01E33;
 border-radius: 5px; 
 margin: 5px;
 transition: 0.3s ease-in-out;
@@ -125,30 +125,4 @@ transition: 0.3s ease-in-out;
 
 img:hover {
 transform: scale(1.1);
-}
-
-.tooltip {
-  position: relative;
-  display: inline-block;
-}
-
-.tooltip .tooltiptext {
-  visibility: hidden;
-  width: 120px;
-  background-color: black;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 5px 0;
-  
-  /* Position the tooltip */
-  position: absolute;
-  z-index: 1;
-  bottom: 100%;
-  left: 50%;
-  margin-left: -60px;
-}
-
-.tooltip:hover .tooltiptext {
-  visibility: visible;
 }
