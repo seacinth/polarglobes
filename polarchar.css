@@ -117,8 +117,8 @@ margin-top: 20px;
 }
 
 img {
-border: double #610b1f;
-border-radius: 5px; 
+border: solid #610b1f;
+border-radius: 15px; 
 margin: 5px;
 transition: 0.3s ease-in-out;
 }
