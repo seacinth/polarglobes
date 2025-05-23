@@ -1,0 +1,154 @@
+body {
+font-family: 'MS UI Gothic', 'MS Gothic', 'Courier', sans-serif;
+background-image: url("images/snowflakes.png");
+background-color: #c7ced6;
+background-size: repeat;
+height: 100%;
+padding: 15px;
+}
+
+h1 {
+text-align: center;
+padding: 60px;
+}
+
+#container {
+border: 3px outset #a38f7e;
+border-radius: 5px;
+border-top-right-radius: 30px;
+border-top-left-radius: 30px;
+background-image: linear-gradient(180deg, #b3a498, #d9cec5, #ebe2da, #b3a498);
+margin-left: auto;
+margin-right: auto;
+width: 900px;
+height: 1000px;
+}
+
+#containerbox {
+background: #fff;
+background-image: url("images/redplaid.png");
+border: #2e0200 double 2px;
+border-radius: 5px;
+height: 910px;
+margin: 15px;
+}
+
+#header {
+background-image: url("images/polarglobesbanner.png");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+border: 2px solid #545f6b;
+border-radius: 5px;
+width: 840px;
+height: 200px;
+margin: 12px;
+}
+
+#topnav{
+background-image: url("images/beigeplaid.png");
+border: #6e5c4d double;
+border-radius: 15px;
+height: 55px;
+padding: 0 5px;
+margin: 10px 10px;
+text-align: center;
+}
+
+nav ul {
+list-style-type: none;
+padding: 0;
+margin: 0;
+}
+
+nav li{
+display:inline-block;
+position:relative;
+height:2em;line-height:2em;
+margin: 5px;
+}
+
+nav li a,nav li span{
+display: inline-block;
+background-image: linear-gradient(80deg, #b3a498, #d9cec5, #ebe2da, #b3a498);
+color: #806b59;
+padding: 5px 15px;
+border-radius: 10px;
+text-decoration: none;
+font-weight: bold;
+transition: 0.3s ease-in-out;
+border: 2px solid #a38f7e;
+}
+
+/* this section makes the buttons hover */
+nav li a:hover {
+background-image: linear-gradient(180deg, #b3a498, #d9cec5, #ebe2da, #b3a498);
+border-color: #7d6754;
+transform: scale(1.1);
+}
+
+#content {
+background-color: #fff;
+padding: 15px;
+margin: 15px;
+border: double;
+border-radius: 5px;
+width: 100;
+height: 555px;
+overflow-y: auto;
+overflow-x: hidden;
+scrollbar-color: #610b1f white;
+scrollbar-width: thin;
+}
+
+#main {
+width: 575px;
+}
+
+#footer {
+background-image: url("images/beigeplaid.png");
+border: 2px #6e5c4d solid;
+border-radius: 10px;
+padding: 0 5px;
+text-align: center;
+color: #524234;
+margin: 20px 20px;
+margin-top: 20px;
+}
+
+img {
+border: double #000;
+border-radius: 5px; 
+margin: 5px;
+transition: 0.3s ease-in-out;
+}
+
+img:hover {
+transform: scale(1.1);
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
