@@ -99,6 +99,10 @@ border: double;
 border-radius: 5px;
 width: 100;
 height: 555px;
+overflow-y: auto;
+overflow-x: hidden;
+scrollbar-color: #610b1f white;
+scrollbar-width: thin;
 }
 
 #main {
